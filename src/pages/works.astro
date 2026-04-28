@@ -1,0 +1,49 @@
+---
+---
+<head>
+  <meta charset="UTF-8">
+</head>
+<h1>Works</h1>
+
+<div class="grid">
+  <div class="item">
+    <img src="/images/invader.png" alt="work1">
+    <h2>001_icon</h2>
+    <p>nakakiのアイコンをGeminiで作成</p>
+  </div>
+
+  <div class="item">
+    <img src="/images/work2.jpg" alt="work2">
+    <h2>002_M&M Sorting Machine</h2>
+    <p>M&Mとマーブルチョコを自動で色分けするマシン</p>
+  </div>
+
+  <div class="item">
+    <img src="/images/work3.png" alt="work3">
+    <h2>003_???</h2>
+    <p>Coming soon...</p>
+  </div>
+</div>
+
+<a href="/">トップに戻る</a>
+
+<style>
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+</style>
+
